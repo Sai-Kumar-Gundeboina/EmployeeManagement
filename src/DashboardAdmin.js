@@ -5,7 +5,7 @@ import styles from './style';
 export default function DashboardAdmin() {
   const navigate = useNavigate();
   const handleLogout=()=>{
-    fetch('http://localhost:1880/action', {
+    fetch('http://localhost:1880/actio', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
